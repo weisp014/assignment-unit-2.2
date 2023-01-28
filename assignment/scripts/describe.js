@@ -148,6 +148,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+FIX - this is using the incorrect operator OR. This should be temp > 39 && time >=4.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
