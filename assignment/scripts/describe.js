@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We declare a variable named Dane as a string.
+// Then we check if name is a string equal to Mary.
+// Name is not equal to Mary so the console.log is 'How do you do?'.
 //
 
 //CODE
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare a variable named secret.
+// We declare another variable named code and set it to 123 as a number.
+// Then we check if code is equal to 123 and a number type. It is equal so we set secret equal to string 'super' and code is now equal to 246.
+// Then we check if code is greater than 250, but it is not. Therefore, the console.log is super.
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare a variable isStudent to a boolean type as true; Declare variable age equal to 34 as a number; Declare zip equal to 55407 as a number.
+// Then we check if isStudent is true and a boolean type (it is) and if zip is greater than 80000 (it is less than that).
+// Therefore, we go to the next condition seeing if isStudent is false (it is not) or if age is less than 30 (it is larger). Neither of these are true so we go to the next condition.
+// We check if isStudent is true (it is!) and we console.log 'Welcome to Prime!'. The code does not complete the last else statement because it already found one true.
 
 //CODE
 /*
@@ -129,11 +129,12 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
-/*
+/* FIX colorOne = 'blue' (wrong color) and colorTwo = 'red' (wrong color).
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+FIX - missing assigning colorTwo = 'purple' after assigning colorOne.
 if (mix === true) {
   colorOne = 'purple';
 }
